@@ -1,0 +1,88 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    margin: auto;
+}
+.hello {
+    margin-bottom: 40px;
+    height: 50px;
+	width: 100px;
+	border-radius: 7px;
+	background-color: rgb(230, 185, 185);
+    font-size: 18px;
+	font-weight: 200;	
+    border: 3px solid rgb(109, 29, 29)
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+input {
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.btn {
+    height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: rgb(171, 232, 235);
+    font-size: 54px;
+	font-weight: 500;	
+    border: 3px solid rgb(21, 25, 31)
+
+}
+.calc {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 120px 120px;
+    gap: 10px;
+    margin: 50px 30px 20px;
+}
+.result-text {
+    width: 200px;
+    height: 40px;
+    margin: 30px 50px 30px;
+    background-color: rgb(171, 232, 235);
+    border: 3px solid rgb(21, 25, 31);
+    border-radius: 10px;
+}
+.select1 {
+    background-color: rgb(196, 141, 221);
+    border: 3px solid rgb(64, 37, 66);
+}
+#displayimage {
+    width: 300px;
+}
+.arrow {
+    width: 50px;
+}
+
+.whitecolor {
+    background-color: white;
+}
+.lightcolor {
+    background-color: bisque;
+}
+.darkcolor {
+    background-color: rgb(118, 96, 69);
+    color: white;
+}
+.bluecolor {
+    background-color: rgb(30, 19, 89);
+    color: white;
+}
+.theme {
+    margin: 50px 20px 30px;
+    font-size: 16px;
+}
+.colorchoice {
+    margin: 50px 20px 30px;
+    font-size: 12px;
+}
+.count {
+    margin: 50px 20px 30px;
+    font-size: 16px;
+    
+}

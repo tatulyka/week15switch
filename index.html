@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label class="theme">Выберите тему</label>
+            <select name="colors" class="colorchoice" onchange="colorShow()">
+                <option selected value="white" >white</option>  
+                <option value="light">light</option>  
+                <option value="dark">dark</option>  
+                <option value="blue">blue</option>  
+            </select>
+        </div>
+        <label class="count">Введите число</label>
+        <input type="text" id="arg1" placeholder="123">
+            <div class="calc">
+                <button class="btn plus" onclick="setSelected('plus')">+</button>
+                <button class="btn minus" onclick="setSelected('minus')">-</button>
+                <button class="btn miltiply" onclick="setSelected('multiply')">*</button>
+                <button class="btn divide" onclick="setSelected('divide')">/</button>
+            </div>
+        <label class="count">Введите число</label>
+        <input type="text" id="arg2" placeholder="123">
+        <div>
+        <button class="result" onClick="showResult()">Show result</button></div>
+        <div class="result-text" onclick="select(this)"></div>
+    
+
+    <div> 
+        <img src="images/left-arrow.png" class="arrow" onclick="changeImg1()">
+        <img src="images/GH43-04574C-3.jpg" id="displayimage" onclick="startImage()">
+        <img src="images/right-arrow.png" class="arrow" onclick="changeImg2()">
+    </div>
+</div>
+
+    
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
