@@ -56,9 +56,9 @@ function colorShow() {
   let containerColor = document.querySelector('.container');
 switch(document.querySelector('.colorchoice').value) {
 
-case 'white':  containerColor.classList.remove; containerColor.classList.add('whitecolor'); break;
-case 'light':  containerColor.classList.remove; containerColor.classList.add('lightcolor'); break;
-case 'dark':  containerColor.classList.remove; containerColor.classList.add('darkcolor'); break;
-case 'blue':  containerColor.classList.remove; containerColor.classList.add('bluecolor'); break;
+case 'white':  containerColor.className = "container"; containerColor.classList.add('whitecolor'); break;
+case 'light':  containerColor.className = "container"; containerColor.classList.add('lightcolor'); break;
+case 'dark':  containerColor.className = "container"; containerColor.classList.add('darkcolor'); break;
+case 'blue':  containerColor.className = "container"; containerColor.classList.add('bluecolor'); break;
 }
 }
